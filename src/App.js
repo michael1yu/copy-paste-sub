@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import CopyPaste from './components/copy-paste';
 import { getFormats } from './util/get-fields';
