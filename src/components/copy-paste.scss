@@ -1,0 +1,18 @@
+.copy-paste {
+    & .inputs {
+        display: flex;
+        flex-direction: row;
+        margin: 10px;
+        justify-content: center;
+
+        & > input {
+            padding: 5px;
+            margin: 10px;
+        }
+
+    }
+}
+
+.highlight-yellow {
+    background-color: yellow;
+}
