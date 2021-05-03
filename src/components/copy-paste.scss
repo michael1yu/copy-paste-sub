@@ -1,4 +1,9 @@
 .copy-paste {
+    background-color: black;
+    margin: 25px 100px;
+    padding: 10px;
+    border-radius: 5px;
+
     & .inputs {
         display: flex;
         flex-direction: row;
@@ -11,8 +16,19 @@
         }
 
     }
+
+    & .display {
+        margin: 15px 30px;
+        text-align: left;
+        background-color: white;
+        padding: 8px;
+    }
+
+    & .title {
+        color: white;
+    }
 }
 
-.highlight-yellow {
-    background-color: yellow;
+.highlight {
+    background-color: springgreen;
 }
