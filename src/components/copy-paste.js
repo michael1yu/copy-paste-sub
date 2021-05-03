@@ -10,7 +10,7 @@ const CopyPaste = ({ title, format }) => {
 
     const [form, updateForm] = useState({});
     const [target, updateTarget] = useState('');
-    const [display, updateDisplay] = useState(<span>test</span>);
+    const [display, updateDisplay] = useState(null);
 
     const generate = () => {
         const { strRes, res } = replaceFields(format, form);
